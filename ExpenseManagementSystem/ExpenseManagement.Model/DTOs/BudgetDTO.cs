@@ -1,14 +1,15 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ExpenseManagement.Model
+namespace ExpenseManagement.Model.DTOs
 {
-    public class Budget
+    public class BudgetDTO
     {
-        public string Id { get; set; }
+        [Required]
         public Double Balance { get; set; }
     }
 }
