@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "E46y8/JmMiD7fnE5WukI8KgzHtUkHgGsPSlvbr8Jdut6T+XyPkTm8zvCt2MVlXPJp2bIcbvdk+ApBTZnRvHZ8w==",
+  "dgSpecHash": "L7B2LI2UgFJ2rC1SY9ckzpY+IMVsSlitzEwJVGsdniiz/euZAfgg0GL6Lkuee71dodj+MXJj3Q0lvbShhJphgQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\hp\\Desktop\\MyProjects\\Expense-Management-System-Api\\ExpenseManagementSystem\\ExpenseManagement.Model\\ExpenseManagement.Model.csproj",
   "expectedPackageFiles": [
@@ -46,6 +46,8 @@
     "C:\\Users\\hp\\.nuget\\packages\\netstandard.library\\2.0.0\\netstandard.library.2.0.0.nupkg.sha512",
     "C:\\Users\\hp\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
     "C:\\Users\\hp\\.nuget\\packages\\nlog\\4.7.11\\nlog.4.7.11.nupkg.sha512",
+    "C:\\Users\\hp\\.nuget\\packages\\nlog.extensions.logging\\1.7.4\\nlog.extensions.logging.1.7.4.nupkg.sha512",
+    "C:\\Users\\hp\\.nuget\\packages\\nlog.web.aspnetcore\\4.14.0\\nlog.web.aspnetcore.4.14.0.nupkg.sha512",
     "C:\\Users\\hp\\.nuget\\packages\\nunit\\3.13.2\\nunit.3.13.2.nupkg.sha512",
     "C:\\Users\\hp\\.nuget\\packages\\sqlitepclraw.bundle_e_sqlite3\\2.0.4\\sqlitepclraw.bundle_e_sqlite3.2.0.4.nupkg.sha512",
     "C:\\Users\\hp\\.nuget\\packages\\sqlitepclraw.core\\2.0.4\\sqlitepclraw.core.2.0.4.nupkg.sha512",

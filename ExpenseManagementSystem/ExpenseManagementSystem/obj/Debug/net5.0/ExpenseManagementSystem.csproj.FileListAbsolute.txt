@@ -253,3 +253,6 @@ C:\Users\hp\Desktop\MyProjects\Expense-Management-System-Api\ExpenseManagementSy
 C:\Users\hp\Desktop\MyProjects\Expense-Management-System-Api\ExpenseManagementSystem\ExpenseManagementSystem\obj\Debug\net5.0\ref\ExpenseManagementSystem.dll
 C:\Users\hp\Desktop\MyProjects\Expense-Management-System-Api\ExpenseManagementSystem\ExpenseManagementSystem\obj\Debug\net5.0\ExpenseManagementSystem.pdb
 C:\Users\hp\Desktop\MyProjects\Expense-Management-System-Api\ExpenseManagementSystem\ExpenseManagementSystem\obj\Debug\net5.0\ExpenseManagementSystem.genruntimeconfig.cache
+C:\Users\hp\Desktop\MyProjects\Expense-Management-System-Api\ExpenseManagementSystem\ExpenseManagementSystem\bin\Debug\net5.0\nlog.config
+C:\Users\hp\Desktop\MyProjects\Expense-Management-System-Api\ExpenseManagementSystem\ExpenseManagementSystem\bin\Debug\net5.0\NLog.Extensions.Logging.dll
+C:\Users\hp\Desktop\MyProjects\Expense-Management-System-Api\ExpenseManagementSystem\ExpenseManagementSystem\bin\Debug\net5.0\NLog.Web.AspNetCore.dll
