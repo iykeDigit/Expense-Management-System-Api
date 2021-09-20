@@ -1,11 +1,13 @@
-﻿using ExpenseManagement.Model;
-using ExpenseManagement.Model.DTOs;
+﻿using ExpenseManagement.Model.DTOs;
+using System;
 using System.Collections.Generic;
+using System.Linq;
+using System.Text;
 using System.Threading.Tasks;
 
-namespace ExpenseManagement.Core.Services
+namespace ExpenseManagement.Core.Interfaces
 {
-    public interface IExpenseRepository
+    public interface IMockExpenseRepository
     {
         Task<BudgetDTO> AllocateInitialTotalBudget(BudgetDTO budget);
         double ViewRemainingBudget();

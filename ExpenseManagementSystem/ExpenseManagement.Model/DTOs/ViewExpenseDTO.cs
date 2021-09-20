@@ -9,6 +9,8 @@ namespace ExpenseManagement.Model.DTOs
 {
     public class ViewExpenseDTO
     {
+        public string Id { get; set; }
+        public string UserId { get; set; }
         public string ExpenseDetails { get; set; }
         public Double Amount { get; set; }
         public string AttachedFileUrl { get; set; }

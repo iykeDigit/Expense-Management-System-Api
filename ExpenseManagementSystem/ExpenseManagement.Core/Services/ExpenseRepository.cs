@@ -1,4 +1,5 @@
 ﻿using AutoMapper;
+using ExpenseManagement.Core.Interfaces;
 using ExpenseManagement.Data;
 using ExpenseManagement.Model;
 using ExpenseManagement.Model.DTOs;
