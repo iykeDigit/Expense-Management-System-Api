@@ -167,7 +167,7 @@ namespace ExpenseManagementSystem.Controllers
         }
 
         [HttpPatch("expense - fileUpload/id")]
-        [Authorize(Roles = "Admin, Regular")]
+        //[Authorize(Roles = "Admin, Regular")]
         public async Task<IActionResult> UploadImage([FromForm] AddImageDto imageDto, string expenseId)
         {
             try
