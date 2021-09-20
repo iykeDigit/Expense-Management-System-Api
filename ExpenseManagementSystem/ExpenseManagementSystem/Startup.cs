@@ -1,3 +1,5 @@
+using ExpenseManagement.Core.Interfaces;
+using ExpenseManagement.Core.Services;
 using ExpenseManagement.Data;
 using ExpenseManagement.Model;
 using ExpenseManagement.Model.DTOs.Mappings;
@@ -34,11 +36,11 @@ namespace ExpenseManagementSystem
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            //services.AddScoped<IAuthentication, Authentication>();
-           // services.AddScoped<IUserService, UserService>();
-          //  services.AddScoped<ITokenGenerator, TokenGenerator>();
-           // services.AddScoped<IExpenseRepository, ExpenseRepository>();
-           // services.AddScoped<IImageService, ImageService>();
+            services.AddScoped<IAuthentication, Authentication>();
+            services.AddScoped<IUserService, UserService>();
+            services.AddScoped<ITokenGenerator, TokenGenerator>();
+            services.AddScoped<IExpenseRepository, ExpenseRepository>();
+            services.AddScoped<IImageService, ImageService>();
             services.Configure<ImageUploadSettings>(Configuration.GetSection("ImageUploadSettings"));
             services.AddAutoMapper(typeof(ExpenseMapper));
             services.AddDbContext<AppDbContext>(options =>
@@ -81,7 +83,7 @@ namespace ExpenseManagementSystem
             });
 
             services.Configure<ImageUploadSettings>(Configuration.GetSection("ImageUploadSettings"));
-           // services.AddCloudinary(ServiceExtension.GetAccount(Configuration));
+            services.AddCloudinary(ServiceExtension.GetAccount(Configuration));
 
             services.AddControllers();
             services.AddSwaggerGen(c =>
@@ -113,24 +115,30 @@ namespace ExpenseManagementSystem
                 }
                 });
             });
-
+            
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
-        public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
+        public void Configure(IApplicationBuilder app, IWebHostEnvironment env, RoleManager<IdentityRole> roleManager, UserManager<AppUser> userManager, AppDbContext context)
         {
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
-                app.UseSwagger();
-                app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "ExpenseManagementSystem v1"));
+                
             }
+
+            app.UseSwagger();
+            app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "ExpenseManagementSystem v1"));
 
             app.UseHttpsRedirection();
 
             app.UseRouting();
 
+            app.UseAuthentication();
+
             app.UseAuthorization();
+
+            Seeder.Seed(roleManager, userManager, context).Wait();
 
             app.UseEndpoints(endpoints =>
             {

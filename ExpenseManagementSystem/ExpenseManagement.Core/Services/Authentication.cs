@@ -21,12 +21,12 @@ namespace ExpenseManagement.Core.Services
             _tokenGenerator = tokenGenerator;
         }
 
-        public async Task<UserDetailsDTO> Login(UserRequestDTO request)
+        public async Task<UserDetailsDTO> Login(UserRequestDTO request) 
         {
             AppUser user = await _userManager.FindByEmailAsync(request.Email);
-            if (user != null)
+            if(user != null) 
             {
-                if (await _userManager.CheckPasswordAsync(user, request.Password))
+                if(await _userManager.CheckPasswordAsync(user, request.Password)) 
                 {
                     var response = UserMappings.GetUserDetails(user);
                     response.Token = await _tokenGenerator.GenerateToken(user);
@@ -39,12 +39,12 @@ namespace ExpenseManagement.Core.Services
             throw new AccessViolationException("Invalid Credentials");
         }
 
-        public async Task<UserDetailsDTO> Register(RegistrationRequestDTO registrationRequest)
+        public async Task<UserDetailsDTO> Register(RegistrationRequestDTO registrationRequest) 
         {
             AppUser user = UserMappings.RegisterUser(registrationRequest);
 
             IdentityResult result = await _userManager.CreateAsync(user, registrationRequest.Password);
-            if (result.Succeeded)
+            if (result.Succeeded) 
             {
                 return UserMappings.GetUserDetails(user);
             }

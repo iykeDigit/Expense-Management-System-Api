@@ -8,7 +8,7 @@ namespace ExpenseManagement.Model
 {
     public class Budget
     {
-        public string Id { get; set; }
+        public string Id { get; set; } = Guid.NewGuid().ToString();
         public Double Balance { get; set; }
     }
 }

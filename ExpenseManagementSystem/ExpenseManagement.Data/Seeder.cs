@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace ExpenseManagement.Data
 {
-    class Seeder
+    public class Seeder
     {
         public async static Task Seed(RoleManager<IdentityRole> roleManager, UserManager<AppUser> userManager, AppDbContext context)
         {
@@ -49,7 +49,7 @@ namespace ExpenseManagement.Data
                         UserName = "GlenW",
                         PhoneNumber =  "+1 (848) 443-2870",
                         Department = "Operations"
-
+                        
                     },
                     new AppUser
                     {
@@ -60,7 +60,7 @@ namespace ExpenseManagement.Data
                         PhoneNumber = "+1 (828) 400-3241",
                         Department = "Sales"
                     },
-
+                    
                 };
 
                 foreach (var user in users)

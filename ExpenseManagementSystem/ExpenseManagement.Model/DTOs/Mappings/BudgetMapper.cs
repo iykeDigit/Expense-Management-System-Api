@@ -13,17 +13,5 @@ namespace ExpenseManagement.Model.DTOs.Mappings
         {
             CreateMap<Budget, BudgetDTO>().ReverseMap();
         }
-
-        public static Budget CreateBudget(BudgetDTO budget) 
-        {
-            return new Budget
-            {
-                Id = Guid.NewGuid().ToString(),
-                Balance = budget.Balance
-            };
-        }
-
-
-
     }
 }

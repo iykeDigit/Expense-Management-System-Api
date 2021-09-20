@@ -7,9 +7,9 @@ using System.Threading.Tasks;
 
 namespace ExpenseManagement.Core.Interfaces
 {
-    public interface IAuthentication
-        {
-            Task<UserDetailsDTO> Login(UserRequestDTO request);
-            Task<UserDetailsDTO> Register(RegistrationRequestDTO registrationRequest);
-        }
+   public  interface IAuthentication
+    {
+        Task<UserDetailsDTO> Login(UserRequestDTO request);
+        Task<UserDetailsDTO> Register(RegistrationRequestDTO registrationRequest);
     }
+}
