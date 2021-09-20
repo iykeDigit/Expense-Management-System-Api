@@ -25,4 +25,8 @@
     <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="6.12.2" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\ExpenseManagement.Model\ExpenseManagement.Model.csproj" />
+  </ItemGroup>
+
 </Project>

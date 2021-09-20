@@ -1,0 +1,15 @@
+C:\Users\hp\Desktop\MyProjects\Expense-Management-System-Api\ExpenseManagementSystem\ExpenseManagement.Core\bin\Debug\net5.0\ExpenseManagement.Core.deps.json
+C:\Users\hp\Desktop\MyProjects\Expense-Management-System-Api\ExpenseManagementSystem\ExpenseManagement.Core\bin\Debug\net5.0\ExpenseManagement.Core.runtimeconfig.json
+C:\Users\hp\Desktop\MyProjects\Expense-Management-System-Api\ExpenseManagementSystem\ExpenseManagement.Core\bin\Debug\net5.0\ExpenseManagement.Core.runtimeconfig.dev.json
+C:\Users\hp\Desktop\MyProjects\Expense-Management-System-Api\ExpenseManagementSystem\ExpenseManagement.Core\bin\Debug\net5.0\ExpenseManagement.Core.dll
+C:\Users\hp\Desktop\MyProjects\Expense-Management-System-Api\ExpenseManagementSystem\ExpenseManagement.Core\bin\Debug\net5.0\ref\ExpenseManagement.Core.dll
+C:\Users\hp\Desktop\MyProjects\Expense-Management-System-Api\ExpenseManagementSystem\ExpenseManagement.Core\bin\Debug\net5.0\ExpenseManagement.Core.pdb
+C:\Users\hp\Desktop\MyProjects\Expense-Management-System-Api\ExpenseManagementSystem\ExpenseManagement.Core\obj\Debug\net5.0\ExpenseManagement.Core.csproj.AssemblyReference.cache
+C:\Users\hp\Desktop\MyProjects\Expense-Management-System-Api\ExpenseManagementSystem\ExpenseManagement.Core\obj\Debug\net5.0\ExpenseManagement.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\hp\Desktop\MyProjects\Expense-Management-System-Api\ExpenseManagementSystem\ExpenseManagement.Core\obj\Debug\net5.0\ExpenseManagement.Core.AssemblyInfoInputs.cache
+C:\Users\hp\Desktop\MyProjects\Expense-Management-System-Api\ExpenseManagementSystem\ExpenseManagement.Core\obj\Debug\net5.0\ExpenseManagement.Core.AssemblyInfo.cs
+C:\Users\hp\Desktop\MyProjects\Expense-Management-System-Api\ExpenseManagementSystem\ExpenseManagement.Core\obj\Debug\net5.0\ExpenseManagement.Core.csproj.CoreCompileInputs.cache
+C:\Users\hp\Desktop\MyProjects\Expense-Management-System-Api\ExpenseManagementSystem\ExpenseManagement.Core\obj\Debug\net5.0\ExpenseManagement.Core.dll
+C:\Users\hp\Desktop\MyProjects\Expense-Management-System-Api\ExpenseManagementSystem\ExpenseManagement.Core\obj\Debug\net5.0\ref\ExpenseManagement.Core.dll
+C:\Users\hp\Desktop\MyProjects\Expense-Management-System-Api\ExpenseManagementSystem\ExpenseManagement.Core\obj\Debug\net5.0\ExpenseManagement.Core.pdb
+C:\Users\hp\Desktop\MyProjects\Expense-Management-System-Api\ExpenseManagementSystem\ExpenseManagement.Core\obj\Debug\net5.0\ExpenseManagement.Core.genruntimeconfig.cache
