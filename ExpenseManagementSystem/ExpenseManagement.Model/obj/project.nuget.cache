@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "h0muYZ0JM47rHKa5cxjSrXWKQqPDmwFOzSwCW11WG2+y8kgESihOTllSv/W8lSq3JXOo0DI+JcLB63U0A4Nu8g==",
+  "dgSpecHash": "E46y8/JmMiD7fnE5WukI8KgzHtUkHgGsPSlvbr8Jdut6T+XyPkTm8zvCt2MVlXPJp2bIcbvdk+ApBTZnRvHZ8w==",
   "success": true,
-  "projectFilePath": "C:\\Users\\hp\\Documents\\ExpenseManagementSystem\\ExpenseManagement.Model\\ExpenseManagement.Model.csproj",
+  "projectFilePath": "C:\\Users\\hp\\Desktop\\MyProjects\\Expense-Management-System-Api\\ExpenseManagementSystem\\ExpenseManagement.Model\\ExpenseManagement.Model.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\hp\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
     "C:\\Users\\hp\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\8.1.1\\automapper.extensions.microsoft.dependencyinjection.8.1.1.nupkg.sha512",

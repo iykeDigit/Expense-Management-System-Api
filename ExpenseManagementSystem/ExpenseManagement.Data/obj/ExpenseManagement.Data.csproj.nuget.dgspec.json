@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\hp\\Documents\\ExpenseManagementSystem\\ExpenseManagement.Data\\ExpenseManagement.Data.csproj": {}
+    "C:\\Users\\hp\\Desktop\\MyProjects\\Expense-Management-System-Api\\ExpenseManagementSystem\\ExpenseManagement.Data\\ExpenseManagement.Data.csproj": {}
   },
   "projects": {
-    "C:\\Users\\hp\\Documents\\ExpenseManagementSystem\\ExpenseManagement.Data\\ExpenseManagement.Data.csproj": {
+    "C:\\Users\\hp\\Desktop\\MyProjects\\Expense-Management-System-Api\\ExpenseManagementSystem\\ExpenseManagement.Data\\ExpenseManagement.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\hp\\Documents\\ExpenseManagementSystem\\ExpenseManagement.Data\\ExpenseManagement.Data.csproj",
+        "projectUniqueName": "C:\\Users\\hp\\Desktop\\MyProjects\\Expense-Management-System-Api\\ExpenseManagementSystem\\ExpenseManagement.Data\\ExpenseManagement.Data.csproj",
         "projectName": "ExpenseManagement.Data",
-        "projectPath": "C:\\Users\\hp\\Documents\\ExpenseManagementSystem\\ExpenseManagement.Data\\ExpenseManagement.Data.csproj",
+        "projectPath": "C:\\Users\\hp\\Desktop\\MyProjects\\Expense-Management-System-Api\\ExpenseManagementSystem\\ExpenseManagement.Data\\ExpenseManagement.Data.csproj",
         "packagesPath": "C:\\Users\\hp\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\hp\\Documents\\ExpenseManagementSystem\\ExpenseManagement.Data\\obj\\",
+        "outputPath": "C:\\Users\\hp\\Desktop\\MyProjects\\Expense-Management-System-Api\\ExpenseManagementSystem\\ExpenseManagement.Data\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -34,8 +34,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\hp\\Documents\\ExpenseManagementSystem\\ExpenseManagement.Model\\ExpenseManagement.Model.csproj": {
-                "projectPath": "C:\\Users\\hp\\Documents\\ExpenseManagementSystem\\ExpenseManagement.Model\\ExpenseManagement.Model.csproj"
+              "C:\\Users\\hp\\Desktop\\MyProjects\\Expense-Management-System-Api\\ExpenseManagementSystem\\ExpenseManagement.Model\\ExpenseManagement.Model.csproj": {
+                "projectPath": "C:\\Users\\hp\\Desktop\\MyProjects\\Expense-Management-System-Api\\ExpenseManagementSystem\\ExpenseManagement.Model\\ExpenseManagement.Model.csproj"
               }
             }
           }
@@ -124,14 +124,14 @@
         }
       }
     },
-    "C:\\Users\\hp\\Documents\\ExpenseManagementSystem\\ExpenseManagement.Model\\ExpenseManagement.Model.csproj": {
+    "C:\\Users\\hp\\Desktop\\MyProjects\\Expense-Management-System-Api\\ExpenseManagementSystem\\ExpenseManagement.Model\\ExpenseManagement.Model.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\hp\\Documents\\ExpenseManagementSystem\\ExpenseManagement.Model\\ExpenseManagement.Model.csproj",
+        "projectUniqueName": "C:\\Users\\hp\\Desktop\\MyProjects\\Expense-Management-System-Api\\ExpenseManagementSystem\\ExpenseManagement.Model\\ExpenseManagement.Model.csproj",
         "projectName": "ExpenseManagement.Model",
-        "projectPath": "C:\\Users\\hp\\Documents\\ExpenseManagementSystem\\ExpenseManagement.Model\\ExpenseManagement.Model.csproj",
+        "projectPath": "C:\\Users\\hp\\Desktop\\MyProjects\\Expense-Management-System-Api\\ExpenseManagementSystem\\ExpenseManagement.Model\\ExpenseManagement.Model.csproj",
         "packagesPath": "C:\\Users\\hp\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\hp\\Documents\\ExpenseManagementSystem\\ExpenseManagement.Model\\obj\\",
+        "outputPath": "C:\\Users\\hp\\Desktop\\MyProjects\\Expense-Management-System-Api\\ExpenseManagementSystem\\ExpenseManagement.Model\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",

@@ -3546,11 +3546,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\hp\\Documents\\ExpenseManagementSystem\\ExpenseManagementSystem.Test\\ExpenseManagementSystem.Test.csproj",
+      "projectUniqueName": "C:\\Users\\hp\\Desktop\\MyProjects\\Expense-Management-System-Api\\ExpenseManagementSystem\\ExpenseManagementSystem.Test\\ExpenseManagementSystem.Test.csproj",
       "projectName": "ExpenseManagementSystem.Test",
-      "projectPath": "C:\\Users\\hp\\Documents\\ExpenseManagementSystem\\ExpenseManagementSystem.Test\\ExpenseManagementSystem.Test.csproj",
+      "projectPath": "C:\\Users\\hp\\Desktop\\MyProjects\\Expense-Management-System-Api\\ExpenseManagementSystem\\ExpenseManagementSystem.Test\\ExpenseManagementSystem.Test.csproj",
       "packagesPath": "C:\\Users\\hp\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\hp\\Documents\\ExpenseManagementSystem\\ExpenseManagementSystem.Test\\obj\\",
+      "outputPath": "C:\\Users\\hp\\Desktop\\MyProjects\\Expense-Management-System-Api\\ExpenseManagementSystem\\ExpenseManagementSystem.Test\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -3573,11 +3573,11 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "C:\\Users\\hp\\Documents\\ExpenseManagementSystem\\ExpenseManagement.Core\\ExpenseManagement.Core.csproj": {
-              "projectPath": "C:\\Users\\hp\\Documents\\ExpenseManagementSystem\\ExpenseManagement.Core\\ExpenseManagement.Core.csproj"
+            "C:\\Users\\hp\\Desktop\\MyProjects\\Expense-Management-System-Api\\ExpenseManagementSystem\\ExpenseManagement.Core\\ExpenseManagement.Core.csproj": {
+              "projectPath": "C:\\Users\\hp\\Desktop\\MyProjects\\Expense-Management-System-Api\\ExpenseManagementSystem\\ExpenseManagement.Core\\ExpenseManagement.Core.csproj"
             },
-            "C:\\Users\\hp\\Documents\\ExpenseManagementSystem\\ExpenseManagementSystem\\ExpenseManagementSystem.csproj": {
-              "projectPath": "C:\\Users\\hp\\Documents\\ExpenseManagementSystem\\ExpenseManagementSystem\\ExpenseManagementSystem.csproj"
+            "C:\\Users\\hp\\Desktop\\MyProjects\\Expense-Management-System-Api\\ExpenseManagementSystem\\ExpenseManagementSystem\\ExpenseManagementSystem.csproj": {
+              "projectPath": "C:\\Users\\hp\\Desktop\\MyProjects\\Expense-Management-System-Api\\ExpenseManagementSystem\\ExpenseManagementSystem\\ExpenseManagementSystem.csproj"
             }
           }
         }

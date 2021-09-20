@@ -25,7 +25,27 @@ namespace ExpenseManagementSystem.Test
                     UserId = new Guid("ab2bd817-98cd-4cf3-a80a-53ea0cd9c211").ToString(),
                     ExpenseDetails = "Plane Ticket",
                     Amount = 500.00,
-                    AttachedFileUrl = "",
+                    AttachedFileUrl = "http://res.cloudinary.com/digitmedia/image/upload/v1632152744/ukei0twv1mts3htizoat.jpg",
+                    Status = "Pending"
+                },
+
+                new Expense()
+                {
+                    Id = new Guid("ab2bd817-98cd-4cf3-a80a-53ea0cd9c222").ToString(),
+                    UserId = new Guid("ab2bd817-98cd-4cf3-a80a-53ea0cd9c211").ToString(),
+                    ExpenseDetails = "Rent Receipt",
+                    Amount = 1000.00,
+                    AttachedFileUrl = "http://res.cloudinary.com/digitmedia/image/upload/v1632152744/ukei0twv1mts3htizoat.jpg",
+                    Status = "Pending"
+                },
+
+                new Expense()
+                {
+                    Id = new Guid("ab2bd817-98cd-4cf3-a80a-53ea0cd9c232").ToString(),
+                    UserId = new Guid("ab2bd817-98cd-4cf3-a80a-53ea0cd9c211").ToString(),
+                    ExpenseDetails = "Car Receipt",
+                    Amount = 2000.00,
+                    AttachedFileUrl = "http://res.cloudinary.com/digitmedia/image/upload/v1632152744/ukei0twv1mts3htizoat.jpg",
                     Status = "Pending"
                 }
 
