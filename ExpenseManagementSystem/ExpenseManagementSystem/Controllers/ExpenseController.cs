@@ -55,7 +55,7 @@ namespace ExpenseManagementSystem.Controllers
         }
 
         [HttpPost("Add-Expense")]
-        [Authorize(Roles = "Admin")]
+        [Authorize(Roles = "Admin, Regular")]
         public async Task<IActionResult> AddExpense([FromBody] ExpenseDTO request)
         {
             try
@@ -167,7 +167,7 @@ namespace ExpenseManagementSystem.Controllers
         }
 
         [HttpPatch("expense - fileUpload/id")]
-        //[Authorize(Roles = "Admin, Regular")]
+        [Authorize(Roles = "Admin, Regular")]
         public async Task<IActionResult> UploadImage([FromForm] AddImageDto imageDto, string expenseId)
         {
             try
